@@ -9,8 +9,8 @@ We use [Middleman](https://middlemanapp.com/) to build the static pages which ar
 To run the site on your own machine, simply clone the repo, install the packages necessary, and start up a Middleman server.
 
 ```
-$ git clone git@github.com:dburka/danielburka.git
-$ cd danielburka
+$ git clone git@github.com:dburka/dburka.git
+$ cd dburka
 $ bundle install
 $ middleman server
 ```
