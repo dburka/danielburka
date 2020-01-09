@@ -137,7 +137,19 @@ footer a:hover img {
 
 .feature {
     padding: 20px;
-    background: #f6f6f6;
+    background: #BCDED4;
+        
+        h3 {
+            color: #fff;
+        }
+        
+        p {
+            color: #5D9987;
+            
+            a {
+                color: #387562;
+            }
+        }
 }
 
 .videoWrapper {
@@ -227,19 +239,6 @@ hr {
         top: 0;
         left: 0;
         width: 50%;
-        background: #BCDED4;
-        
-        h3 {
-            color: #fff;
-        }
-        
-        p {
-            color: #5D9987;
-            
-            a {
-                color: #387562;
-            }
-        }
     }
     
     .feature-contents {
