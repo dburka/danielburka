@@ -980,7 +980,10 @@ footer a:hover img {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%; }
+  height: 100%;
+  border: 16px solid #fff;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
 
 .reading {
   position: relative;
