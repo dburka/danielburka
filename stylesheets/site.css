@@ -966,7 +966,13 @@ footer a:hover img {
 
 .feature {
   padding: 20px;
-  background: #f6f6f6; }
+  background: #BCDED4; }
+  .feature h3 {
+    color: #fff; }
+  .feature p {
+    color: #5D9987; }
+    .feature p a {
+      color: #387562; }
 
 .videoWrapper {
   position: relative;
@@ -1039,14 +1045,7 @@ hr {
     position: absolute;
     top: 0;
     left: 0;
-    width: 50%;
-    background: #BCDED4; }
-    .feature h3 {
-      color: #fff; }
-    .feature p {
-      color: #5D9987; }
-      .feature p a {
-        color: #387562; }
+    width: 50%; }
 
   .feature-contents {
     padding: 164px 80px 124px 42px; }
