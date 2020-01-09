@@ -872,7 +872,9 @@ body {
   color: #1F5847; }
 
 p a,
-p a:visited {
+p a:visited,
+li a,
+li a:visited {
   color: #111;
   text-decoration: none;
   border-bottom: 1px solid #BCDED4;
@@ -881,7 +883,9 @@ p a:visited {
   transition: border 0.6s; }
 
 p a:hover,
-p a:active {
+p a:active,
+li a:hover,
+li a:active {
   border-color: #000;
   color: #000; }
 
