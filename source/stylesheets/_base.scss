@@ -53,6 +53,7 @@ h1 {
     font-weight: 600;
     letter-spacing: -0.03em;
     color: #0F543F;
+    margin-top: 160px;
 }
 
 b.subtitle {
@@ -113,7 +114,9 @@ p, li {
 }
 
 footer {
-    padding: 20px 0 40px 0;
+    position: absolute;
+    top: 40px;
+    right: 40px;
 }
 
 footer a img {
@@ -140,7 +143,7 @@ footer a:hover img {
 }
 
 .feature {
-    padding: 20px;
+    padding: 20px 20px 100px 20px;
     background: #BCDED4;
         
         h3 {
@@ -301,11 +304,5 @@ hr {
         width: 150px;
         height: 150px;
         margin: 20px 20px 0 0;
-    }
-    
-    footer {
-        position: absolute;
-        top: 40px;
-        right: 40px;
     }
 }
