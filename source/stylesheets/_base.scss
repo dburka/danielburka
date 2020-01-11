@@ -285,9 +285,9 @@ hr {
         height: 9px;
         position: absolute;
         border-radius: 100px;
-        border: 1px solid #ddd;
+        border: 1px solid #BCDED4;
         background: #fff;
-        top: -15px;
+        top: -13px;
         left: 50%;
         margin-left: -5px;
     }
@@ -299,9 +299,14 @@ hr {
         height: 90px;
         position: absolute;
         border-radius: 100px;
-        background: #ddd;
+        background: #BCDED4;
         top: -50px;
         left: 50%;
+    }
+    
+    .story.first:before {
+        height: 45px;
+        top: -2px;
     }
     
     .reading {
@@ -339,6 +344,10 @@ hr {
             border-radius: 100px;
         }
         
+    }
+    
+    #contact {
+        margin-top: 100px;
     }
     
     h3 {
