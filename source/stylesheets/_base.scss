@@ -273,6 +273,37 @@ hr {
         padding: 164px 48px 124px 48px;
     }
     
+    .story {
+        padding: 60px 0 40px 0;
+        position: relative;
+    }
+    
+    .story:after {
+        content: ".";
+        color: #fff;
+        width: 9px;
+        height: 9px;
+        position: absolute;
+        border-radius: 100px;
+        border: 1px solid #ddd;
+        background: #fff;
+        top: -15px;
+        left: 50%;
+        margin-left: -5px;
+    }
+    
+    .story:before {
+        content: ".";
+        color: #fff;
+        width: 1px;
+        height: 90px;
+        position: absolute;
+        border-radius: 100px;
+        background: #ddd;
+        top: -50px;
+        left: 50%;
+    }
+    
     .reading {
         padding-left: 124px;
         
@@ -290,6 +321,22 @@ hr {
         }
         a:hover img {
             transform: scale(1.05);
+        }
+        
+        .new {
+            position: absolute;
+            top: 4px;
+            left: -6px;
+            color: #fff;
+            background: #FF3355;
+            font-family: National, sans-serif;
+            font-weight: bold;
+            width: 28px;
+            height: 28px;
+            line-height: 28px;
+            text-align: center;
+            font-size: 9px;
+            border-radius: 100px;
         }
         
     }
