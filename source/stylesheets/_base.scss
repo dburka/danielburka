@@ -262,19 +262,60 @@ nav a:hover {
         height: 100px;
         width: 100px;
     }
+    
+    .new {
+        position: absolute;
+        top: 4px;
+        left: 95%;
+        color: #fff;
+        background: #FF3355;
+        font-family: National, sans-serif;
+        font-weight: bold;
+        width: 28px;
+        height: 28px;
+        line-height: 28px;
+        text-align: center;
+        font-size: 9px;
+        border-radius: 100px;
+    }
 }
 
 hr {
     margin: 48px;
 }
 
+.new {
+    position: absolute;
+    top: 4px;
+    left: -6px;
+    color: #fff;
+    background: #FF3355;
+    font-family: National, sans-serif;
+    font-weight: bold;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    font-size: 9px;
+    border-radius: 100px;
+}
+
 .story {
     padding: 60px 0 40px 0;
     position: relative;
+    
+    strong {
+        display: block;
+        text-align: center;
+        font-family: National, sans-serif;
+        margin: 0 0 12px 0;
+        font-size: 16px;
+    }
 }
 
 .story:after {
     content: ".";
+    text-indent: -1000px;
     color: #fff;
     width: 9px;
     height: 9px;
@@ -289,6 +330,7 @@ hr {
 
 .story:before {
     content: ".";
+    text-indent: -1000px;
     color: #fff;
     width: 1px;
     height: 90px;
@@ -397,19 +439,8 @@ hr {
         }
         
         .new {
-            position: absolute;
             top: 4px;
             left: -6px;
-            color: #fff;
-            background: #FF3355;
-            font-family: National, sans-serif;
-            font-weight: bold;
-            width: 28px;
-            height: 28px;
-            line-height: 28px;
-            text-align: center;
-            font-size: 9px;
-            border-radius: 100px;
         }
         
     }
