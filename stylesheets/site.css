@@ -895,12 +895,18 @@ li a:active {
   color: #000; }
 
 h1 {
-  font-size: 56px;
+  font-size: 48px;
   font-family: National;
   font-weight: 600;
   letter-spacing: -0.03em;
   color: #0F543F;
-  margin-top: 360px; }
+  margin-top: 280px;
+  margin-left: -2px; }
+  h1 span {
+    display: block;
+    font-size: 100px;
+    margin-top: -24px;
+    margin-left: -5px; }
 
 b.subtitle {
   color: #c82502;
@@ -1073,6 +1079,11 @@ hr {
     font-size: 64px;
     margin-top: 200px;
     margin-left: -2px; }
+    h1 span {
+      display: inline;
+      font-size: inherit;
+      margin-top: 0;
+      margin-left: 0; }
 
   .intro {
     font-size: 30px;
