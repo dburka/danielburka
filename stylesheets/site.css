@@ -958,18 +958,12 @@ footer {
 footer a img {
   width: 30px;
   height: 30px;
-  opacity: 0.7;
   margin-right: 10px;
   -webkit-transition: opacity 1s, border-color 1s;
   transition: opacity 1s, border-color 1s;
-  border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 100px;
   padding: 5px;
   background: #fff; }
-
-footer a:hover img {
-  opacity: 1;
-  border-color: #333; }
 
 .features img {
   width: 90px;
@@ -1158,6 +1152,14 @@ hr {
   .story.first:before {
     height: 45px;
     top: -2px; }
+
+  footer a img {
+    opacity: 0.7;
+    border: 1px solid rgba(0, 0, 0, 0.2); }
+
+  footer a:hover img {
+    opacity: 1;
+    border-color: #333; }
 
   .reading {
     padding-left: 124px; }
