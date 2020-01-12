@@ -315,8 +315,8 @@ hr {
 
 .story:after {
     content: ".";
-    text-indent: -1000px;
-    color: #fff;
+    text-indent: -5000px;
+    color: rgba(255,255,255,0.01);
     width: 9px;
     height: 9px;
     position: absolute;
@@ -330,8 +330,8 @@ hr {
 
 .story:before {
     content: ".";
-    text-indent: -1000px;
-    color: #fff;
+    text-indent: -5000px;
+    color: rgba(255,255,255,0.01);
     width: 1px;
     height: 90px;
     position: absolute;
