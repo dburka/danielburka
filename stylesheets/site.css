@@ -966,8 +966,8 @@ footer {
   right: 20px; }
 
 footer a img {
-  width: 30px;
-  height: 30px;
+  width: 24px;
+  height: 24px;
   margin-right: 10px;
   -webkit-transition: opacity 1s, border-color 1s;
   transition: opacity 1s, border-color 1s;
@@ -1122,6 +1122,10 @@ hr {
       font-size: inherit;
       margin-top: 0;
       margin-left: 0; }
+
+  footer a img {
+    width: 30px;
+    height: 30px; }
 
   .intro {
     font-size: 30px;
