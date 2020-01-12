@@ -22,6 +22,12 @@
     font-weight: 600;
 }
 
+@font-face {
+    font-family: National;
+    src: url(fonts/National-Extrabold.otf);
+    font-weight: 900;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -56,8 +62,8 @@ li a:active {
 h1 {
     font-size: 48px;
     font-family: National;
-    font-weight: 600;
-    letter-spacing: -0.03em;
+    font-weight: 900;
+    letter-spacing: -0.02em;
     color: #0F543F;
     margin-top: 280px;
     margin-left: -2px;
@@ -159,7 +165,7 @@ nav a {
     display: block;
     padding: 8px 0;
     font-family: National, sans-serif;
-    font-weight: bold;
+    font-weight: 600;
     color: #1F5847;
     text-decoration: none;
     border-bottom: 1px solid yellow;
@@ -261,6 +267,42 @@ hr {
     margin: 48px;
 }
 
+.story {
+    padding: 60px 0 40px 0;
+    position: relative;
+}
+
+.story:after {
+    content: ".";
+    color: #fff;
+    width: 9px;
+    height: 9px;
+    position: absolute;
+    border-radius: 100px;
+    border: 1px solid #BCDED4;
+    background: #fff;
+    top: -13px;
+    left: 50%;
+    margin-left: -5px;
+}
+
+.story:before {
+    content: ".";
+    color: #fff;
+    width: 1px;
+    height: 90px;
+    position: absolute;
+    border-radius: 100px;
+    background: #BCDED4;
+    top: -50px;
+    left: 50%;
+}
+
+.story.first:before {
+    height: 45px;
+    top: -2px;
+}
+
 /* For large devices */
 @media (min-width: 1000px) {
     body {
@@ -317,42 +359,6 @@ hr {
     
     .feature-contents {
         padding: 164px 48px 124px 48px;
-    }
-    
-    .story {
-        padding: 60px 0 40px 0;
-        position: relative;
-    }
-    
-    .story:after {
-        content: ".";
-        color: #fff;
-        width: 9px;
-        height: 9px;
-        position: absolute;
-        border-radius: 100px;
-        border: 1px solid #BCDED4;
-        background: #fff;
-        top: -13px;
-        left: 50%;
-        margin-left: -5px;
-    }
-    
-    .story:before {
-        content: ".";
-        color: #fff;
-        width: 1px;
-        height: 90px;
-        position: absolute;
-        border-radius: 100px;
-        background: #BCDED4;
-        top: -50px;
-        left: 50%;
-    }
-    
-    .story.first:before {
-        height: 45px;
-        top: -2px;
     }
     
     footer a img {
