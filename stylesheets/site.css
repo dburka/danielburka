@@ -1191,9 +1191,9 @@ hr {
             flex-direction: column;
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
-    -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    -webkit-box-flex: 1.2;
+        -ms-flex: 1.2;
+            flex: 1.2;
     padding: 32px;
     border-top: none;
     display: table-cell; }
