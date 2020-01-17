@@ -108,6 +108,40 @@
                 <a href="https://www.linkedin.com/in/dburka/"><img src="../images/linkedin.png"></a>
                 <a href="https://dribbble.com/dburka"><img src="../images/dribbble.png"></a>
             </footer>
+            
+            <style>
+                .card-dropdown {
+                    width: 100%;
+                    border: 1px solid $blue;
+                    color: $blue;
+                    font-weight: bold;
+                    font-size: 18px;
+                    padding: 8px;
+                    height: 42px;
+                    background: #fff;
+                    margin: 16px 0 8px 0;
+                    border-radius: 5px;
+                    position: relative;
+                }
+            </style>
+            <form>
+                <select class="card-dropdown">
+                    <optgroup label="All patients">
+                        <option>All follow-up patients</option>
+                    <optgroup label="Hypertension">
+                        <option>All hypertension patients</option>
+                        <option>Female</option>
+                        <option>Male</option>
+                        <option>Transgender</option>
+                    </optgroup>
+                    <optgroup label="Diabetes">
+                        <option>All diabetes patients</option>
+                        <option>Female</option>
+                        <option>Male</option>
+                        <option>Transgender</option>
+                    </optgroup>
+                </select>
+            </form>
         </div>
     </div>
     <div class="feature">
@@ -203,40 +237,6 @@
             
         </div>
     </div>
-    
-    <style>
-        .card-dropdown {
-            width: 100%;
-            border: 1px solid $blue;
-            color: $blue;
-            font-weight: bold;
-            font-size: 18px;
-            padding: 8px;
-            height: 42px;
-            background: #fff;
-            margin: 16px 0 8px 0;
-            border-radius: 5px;
-            position: relative;
-        }
-    </style>
-    <form>
-        <select class="card-dropdown">
-            <optgroup label="All patients">
-                <option>All follow-up patients</option>
-            <optgroup label="Hypertension">
-                <option>All hypertension patients</option>
-                <option>Female</option>
-                <option>Male</option>
-                <option>Transgender</option>
-            </optgroup>
-            <optgroup label="Diabetes">
-                <option>All diabetes patients</option>
-                <option>Female</option>
-                <option>Male</option>
-                <option>Transgender</option>
-            </optgroup>
-        </select>
-    </form>
 </div>
 </body>
 </html>
